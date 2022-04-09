@@ -184,11 +184,11 @@ public class TweetsVSM {
     public static void main(String[] args) throws IOException, CsvValidationException {
 
         // reading the stop word text file by calling stop word function
-        StopWord("/Users/shashwatmishra/Desktop/Shashwat’s MacBook Pro/School/Spring Sem 2215/ISTE 612 - Text Mining/Lab 1/TweetsVSM/src/stopwords.txt");
+        StopWord("stopwords.txt");
 
         // Loading the Tweets CSV file to the program
         List<List<String>> result = new ArrayList<>();
-        try (CSVReader csvReader = new CSVReader(new FileReader("/Users/shashwatmishra/Desktop/Shashwat’s MacBook Pro/School/Spring Sem 2215/ISTE 612 - Text Mining/Lab 1/TweetsVSM/src/TweetSample.csv"))) {
+        try (CSVReader csvReader = new CSVReader(new FileReader("TweetSample.csv"))) {
             String[] values;
             while ((values = csvReader.readNext()) != null) {
                 result.add(Arrays.asList(values));
