@@ -15,8 +15,6 @@ Below are the steps to successfully run the sample project in your system:
 
 •	These are the external libraries used to read csv files in java.
 
-•	Using Buffered Reader can do more harm because they use delimiter and tweets can contain any type of words because they do not have to follow grammatical rules.
-
 •	I have used a sample Tweets data here containing 1000 rows. 
 
 •	When you Run and debugging keep the Tweets and stop words file in same folder as this TweetsVSM.java file.
@@ -27,8 +25,10 @@ Below are the steps to successfully run the sample project in your system:
 
 •	This program gives VSM tf idf, and Search Query Test Cases for ranked search as output.
 
-•	Expected output for Search Query Test cases is also included as a comment in end of this code.
+•	This program gives finds similarity of the phrase search query using cosine similarity.
 
 •	The Ranked output has been sorted in descending order so that we can know which tweet is the most like the test cases we have in the input.
 
-•	There a plenty more test cases which can be used to detect the vaccine misinformation. 
+•	There a plenty more test cases which can be used to detect the vaccine misinformation spreading users and if they are verified profiles.
+
+•	I have added the screenshot of test cases and GUI in the folder Test Cases.
