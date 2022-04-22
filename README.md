@@ -32,3 +32,5 @@ Below are the steps to successfully run the sample project in your system:
 •	There a plenty more test cases which can be used to detect the vaccine misinformation spreading users and if they are verified profiles.
 
 •	I have added the screenshot of test cases and GUI in the folder Test Cases.
+
+•	This program gives summary statistics for each Test Cases.
