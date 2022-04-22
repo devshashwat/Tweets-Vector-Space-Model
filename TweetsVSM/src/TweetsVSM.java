@@ -7,7 +7,7 @@ import java.util.stream.Collectors;
 
 /**
  *
- * @author Team_3
+ * @author Shashwat Mishra
  *
  * CLass to implement VSM in tweets dataset remove stop word and perform ranked retrieval
  *
